@@ -25,9 +25,6 @@ int main(void)
     unsigned char length = 1;
     while(1)
     {
-        /*unsigned char buttons = getButton();
-        ledSet(buttons, 1);
-        ledSet(~buttons, 0);*/
         generate(length);
         if(check(length))
         {
