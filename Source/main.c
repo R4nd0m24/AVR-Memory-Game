@@ -2,6 +2,7 @@
 #include <util/delay.h>
 #include <stdlib.h>
 
+//void startDemo(unsigned char times, unsigned char mode);
 void startDemo(unsigned char times, unsigned char mode);
 unsigned char getButton();
 void ledSet(unsigned char number, unsigned char state);
