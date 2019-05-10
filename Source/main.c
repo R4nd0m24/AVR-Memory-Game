@@ -34,7 +34,7 @@ int main(void)
             gameOver(length - 1);
             length = 0;
         }
-        _delay_ms(500);
+        _delay_ms(450);
 
         length++;
     }
