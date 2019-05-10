@@ -20,7 +20,7 @@ int main(void)
     randomInit();
     DDRB |= (1<<PB2) | (1<<PB3) | (1<<PB4) | (1<<PB5);
     startDemo(3, 0b00000011);
-    _delay_ms(500);
+    _delay_ms(600);
 
     unsigned char length = 1;
     while(1)
